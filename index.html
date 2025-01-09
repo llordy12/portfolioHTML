@@ -7,6 +7,9 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Meu Perfil</title>
 </head>
 
@@ -14,7 +17,7 @@
 
     <header>
 
-        <div id="header_content">
+        <div id="header_content" class="flex">
             >
             <div id="titulo">
 
@@ -43,16 +46,17 @@
     <main>
 
 
-        <section id="about">
+        <section id="about" class="flex_start">
 
 
             <h2>Sobre mim</h2>
 
 
-            <div id="conteudo">
+            <div id="conteudo" class="flex">
 
 
-                <img src="./assets/img/hec.jpg" alt="Foto do criador desse conteudo" />
+                <img src="./assets/img/hec.jpg" alt="Foto do criador desse conteudo" 
+                class="img_profile"/>
 
 
                 <article id="sobre_texto">
@@ -70,13 +74,13 @@
         </section>
 
 
-        <section id="video">
+        <section id="video" class="flex_start">
 
 
             <h2>Meu vídeo favorito:</h2>
 
 
-            <div class="youtube">
+            <div class="youtube" class="flex_start">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZnNR97iGzL8?si=1pjzpD19oDdSdrZ1"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -88,18 +92,20 @@
     </main>
 
 
-    <footer>
+    <footer class="flex">
 
         <section id="redes_sociais">
 
             <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" 
+                class="social_icon"/>
             </a>
             <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/github.svg" alt="Github" class="social_icon"/>
             </a>
             <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+                <img src="assets/img/instagram.svg" alt="Instagram"
+                class="social_icon" />
             </a>
 
         </section>
